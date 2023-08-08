@@ -16,12 +16,16 @@ html{
     height: 100px;
     display: flex;
     border-radius: 30px;
-    background-color: #e0e4e8;
+    background-color: transparent;
     -moz-box-shadow: 0 0 20px #333333;
     -webkit-box-shadow: 0 0 20px #333333;
     box-shadow: 0 0 20px #7b7b7b;
     justify-content: space-around;
     font-family: 'Inter', sans-serif;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 94%;
 }
 
 .container-title h1 {
