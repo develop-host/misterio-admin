@@ -7,6 +7,8 @@
 
 html{
     scroll-behavior: smooth;
+    transition: all .3s ease;
+
 }
 
 .container-title {
@@ -33,7 +35,7 @@ html{
 }
 
 .container-title a:hover {
-    text-decoration: underline;
+    font-size: 19px;
 }
 
 .container-title img {
@@ -143,3 +145,9 @@ html{
     display: flex;
     justify-content: space-around;
 }
+
+/*
+
+
+
+*/
